@@ -74,7 +74,7 @@ the number of glitches in the matrix (randomly changing characters).
 ## Changinge the colors
 
 Changing the colors is possible, but requires editing and recompiling the source code. 
-It is pretty simple though. First, open up `src/fakestake.c` and find lines 24 through 30:
+It is pretty simple though. First, open up `src/fakesteak.c` and find lines 24 through 30:
 
 	#define COLOR_BG   "\x1b[48;5;0m"   // background color, if to be used
 	#define COLOR_FG_0 "\x1b[38;5;231m" // color for the drop
